@@ -1,7 +1,9 @@
-<script setup></script>
-
 <template>
-  <h1 class="text-3xl font-bold underline bg-blue-500">Hello world!</h1>
+  <div class="min-h-screen bg-gray-100 p-4">
+    <ActivityLogs />
+  </div>
 </template>
 
-<style scoped></style>
+<script setup>
+import ActivityLogs from '@/components/ActivityLogs.vue'
+</script>
