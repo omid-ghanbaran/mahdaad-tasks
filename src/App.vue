@@ -1,7 +1,9 @@
-<script setup></script>
-
 <template>
-  <h1 class="text-3xl font-bold underline bg-blue-500">Hello world!</h1>
+  <div class="min-h-screen bg-gray-100">
+    <UserDashboard />
+  </div>
 </template>
 
-<style scoped></style>
+<script setup>
+import UserDashboard from './components/UserDashboard.vue'
+</script>
